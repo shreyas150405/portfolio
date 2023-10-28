@@ -1,163 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title> Portfolio </title>
-</head>
-<body>
-
+<html>
     <header>
-        <a href="#main" class="logo"><i class="fa-solid fa-user-tie"></i> Shreyas.dev </a>
-        <nav class="navigation">
-            <a href="aboutme.html"> Card </a>
-            <a href="#services"> Services </a>
-            <a href="#project"> Project </a>
-            <a href="#have-learned"> My skills  </a>
-            <a href="#contact"> Contact </a>
-        </nav>
+		<link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     </header>
-    
+<body>
+	<section class="social">
+	
+	</section>
 
-    <section class="main" id="main">
-        <div>
-            <h1><b> WEB DEVELOPER </h1></b> <h4> Hi, I'm Shreyas baranwal . A passionate web developer based in Mumbai </h4><br>
-            <a href="#project" class="mainbotton"> View my work  <i class="fa-solid fa-briefcase" style="color: #00ffff;"></i></a>
-            <br>
-            <div class="social-icons">
-                <a href="www.linkedin.com/in/shreyasbaranwal"> <i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-github" style="color: black;"></i></a>
-                <div class="images">
-                    <div class="img" style="position: relative; left: 0px; top: -200px;">
-                      <img src="me.jpg" >
-            </div>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div>
-            <h2 align="center"><u>About Me</u></h2><br><br><br>
-            <img align="left" src="about.png" style="position: relative; top: -140px;">
-            <p>I'm an enthusiastic and motivated individual who has recently entered the world of creating dynamic and user-friendly websites and web applications. I might not have extensive professional experience, but I am armed with a strong foundation in the fundamental technologies and concepts that power the web. My education and personal projects have given me a solid grasp of HTML, CSS, and JavaScript, which are the building blocks of modern web development. I find joy in translating ideas into code and turning them into visually appealing and functional websites. To me, web development is a beautiful blend of design and functionality. I'm not just interested in how things work, but also in how they look and feel. </p>
-
-        </div>
-    </section>
-    
-
-    <section class="cards" id="services">
-        <h2 class="title"><u> Services</u></h2>
-        <div class="content">
-            <a href="#project" class="botton-cards">
-                <div class="card">
-                    <div class="icon">
-                        <i class="fa-solid fa-play"></i>     
-                        </div>
-                            <div class="info">
-                        <h3> My Project </h3>
-
-                    </div>
-                </div>
-            </a>
-            <a href="#have-learned" class="botton-cards">
-                <div class="card">
-                    <div class="icon">
-                        <i class="fa-solid fa-user-graduate"></i>
-                    </div>
-                        <div class="info">
-                        <h3> Have learned </h3>
-                    </div>
-                </div>
-            </a>
-            <a href="#contact" class="botton-cards">
-                <div class="card">
-                    <div class="icon">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                    </div>
-                    <div class="info">
-                        <h3> Let's work together </h3>
-                    </div>
-                </div>
-            </a>    
-        </div>
-    </section>
-
-    <section class="project" id="project">
-        <h2 class="title"><u>Projects</u> </h2>
-        <div class="content">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="store.jpeg" alt="Website">
-                </div>
-                <div class="project-info">
-                    <p class="project-category"> Electronic Website  </p>
-                    <strong class="project-title">
-                        <span> 2022 </span> 
-                        <a href="#contact" class="more-dtiles"> More </a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="jewellery.jpeg" alt="Jewellery">
-                </div>
-                <div class="project-info">
-                    <p class="project-category"> Jewellery Website </p>
-                    <strong class="project-title">
-                        <span> 2023-present  </span> 
-                        <a href="#contact" class="more-dtiles"> More  </a>
-                    </strong>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="have-learned" id="have-learned">
-        <h2 class="title"><u>Have learned / Skills</u></h2>
-        <div>
-            <i class="fa-brands fa-html5 fa-2xl" style="color: #ff000d;"></i>
-            <i class="fa-brands fa-css3-alt fa-2xl" style="color: #005eff;"></i>
-            <i class="fa-brands fa-js fa-2xl" style="color: #f7c202;"></i>
-            <i class="fa-brands fa-bootstrap fa-2xl" style="color: #ae00ff;"></i>
-        </div>
-    </section>
-    
-    <section class="cards-contact" id="contact">
-        <h2 class="title"><u>Let's work together</u></h2>
-    <div class="content">
-        <a href="tel: 9768602149" class="botton-cards">
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-phone"></i>     
-                    </div>
-                        <div class="info">
-                    <h3> Phone </h3>
-                    <p> +91 9768602149 </p>
-                </div>
-            </div>
-        </a>
-        <a href="mailto:shreyasbaranwal2580@gmail.com" class="botton-cards">
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-                    <div class="info">
-                    <h3> Email </h3>
-                    <p> shreyasbaranwal2580@gmail.com </p>
-                </div>
-            </div>
-        </a>
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Shreyas.Dev
+      </a>
     </div>
-    </section>
+  </nav>
 
-    <footer class="footer">
-        <p class="footer-title"> copyrights @ <span> Shreyas Baranwal </span> All rights reserved </p>
-        <div class="social-icons">
-            <a href=""> <i class="fa-brands fa-facebook"></i> </a>
-            <a href=""> <i class="fa-brands fa-instagram"></i> </a>
-        </div>
-    </footer>
+
+	<div class="container text-center py-6 "  style= "min-height: 85vh; padding:10vw">
+		<div class="row">
+			<div class="col-lg-6 col-xl-5 mx-auto">
+				<div class="lc-block mb-3">
+					<div editable="rich">
+						<h1> WEB DEVELOPER  </h1>
+					</div>
+				</div><!-- /lc-block -->
+				<div class="lc-block mb-5">
+					<div editable="rich">
+						<p class="lead"> Hi, I'm Shreyas baranwal . A passionate web developer based in Mumbai.</p>
+
+					</div>
+				</div><!-- /lc-block -->
+				<div class="lc-block"><a class="btn btn-primary btn-lg" href="#" role="button"> View my work </a>
+				</div><!-- /lc-block -->
+			</div>
+			<!-- /column -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</div>
+
+
+<div class="container"  style= "min-height: 85vh">
+	<div class="row py-5">
+		<div class="col-lg-1 d-none d-lg-flex align-items-center">
+			<div class="lc-block d-flex" style="writing-mode: vertical-rl; transform:rotate(180deg)">
+				<a class="btn btn-link my-2 text-dark text-decoration-none" href="#" role="button">Github</a>
+				<a class="btn btn-link my-4 text-dark text-decoration-none" href="#" role="button">Linkedin</a>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-sm-6 d-flex d-lg-none flex-sm-column align-items-center justify-content-around mb-4 mb-sm-0">
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Github</a>
+
+			</div>
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Linkedin</a>
+
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="lc-block ratio ratio-1x1">
+				<img style="object-fit:cover" class="img-fluid" src="https://images.unsplash.com/photo-1580920790557-43158492adb5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by ALEXANDRE LALLEMAND">
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-lg-4 offset-lg-1">
+			<div class="lc-block my-5">
+				<div editable="rich">
+					<h2 class="rfs-25"> ABOUT ME </h2>
+				</div>
+			</div>
+			<div class="lc-block my-5">
+				<div editable="rich">
+					<p> I'm an enthusiastic and motivated individual who has recently entered the world of creating dynamic and user-friendly websites and web applications. I might not have extensive professional experience, but I am armed with a strong foundation in the fundamental technologies and concepts that power the web. My education and personal projects have given me a solid grasp of HTML, CSS, and JavaScript, which are the building blocks of modern web development. I find joy in translating ideas into code and turning them into visually appealing and functional websites. To me, web development is a beautiful blend of design and functionality. I'm not just interested in how things work, but also in how they look and feel. </p>
+				</div>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+	</div>
+</div> 
+
+<div class="section" style= "min-height: 85vh">
+	<div class="row">
+		<div class="col-md-12 text-center">
+				<h2 editable="inline" class="display-2 mb-0"><b> SKILLS </b></h2>
+			</div><!-- /lc-block -->
+		</div>
+
+	<div class="row justify-content-center">
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/html 5.png" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong>  HTML/HTML5</strong></h5>
+
+                </div>
+			</div><!-- /lc-block -->
+		</div>
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/css.png" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong> CSS </strong></h5>
+
+				</div>
+			</div><!-- /lc-block -->
+		</div>
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/js.png" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong> JAVASCRIPT </strong></h5>
+				</div>
+			</div><!-- /lc-block -->
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/webflow.webp" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong> WEBFLOW </strong></h5>
+
+				</div>
+			</div><!-- /lc-block -->
+		</div>
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/figma.png" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong> FIGMA </strong></h5>
+
+				</div>
+			</div><!-- /lc-block -->
+		</div>
+		<div class="col-md-7 col-lg-3 me-lg-4 rounded shadow-sm my-4 p-3" style="transition: all 0.3s ease-in-out;">
+			<div class="lc-block text-center">
+				<img class="img-fluid" src="img/bootstrap.png" style="height:50px;">
+			</div>
+
+			<div style="padding:30px" class="lc-block rounded text-center">
+
+
+				<div editable="rich">
+
+					<h5><strong>BOOTSTRAP </strong></h5>
+
+				</div>
+			</div><!-- /lc-block -->
+		</div>
+	</div>
+</div>
+</div>
+
+
+ 
+  
+<div class="container">
+	<h2 editable="inline" class="display-2 mb-0 text-center"><b> MY PROJECTS  </b></h2>
+	<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+		<div class="col">
+			<div class="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" lc-helper="background" style="background-image: url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size:cover" alt=" photo by Scott Webb via unsplash">
+				<div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+					<div class="lc-block pt-5 mt-5 mb-4">
+						<div editable="rich">
+							<h2 class="display-6 lh-1 fw-bold"> Jewellery Website </h2>
+							<p>Quickly design and customize responsive mobile-first sites with Bootstrap.</p>
+						</div>
+					</div>
+					<ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-dark " href="#" role="button">Read more</a></ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="col">
+			<div class="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" lc-helper="background" style="background:url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)  center / cover no-repeat;" alt=" photo by Samantha Gades via unsplash">
+				<div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+					<div class="lc-block pt-5 mt-5 mb-4">
+						<div editable="rich">
+							<h2 class="display-6 lh-1 fw-bold"> Landing Page </h2>
+							<p>Quickly design and customize responsive mobile-first sites with Bootstrap.</p>
+						</div>
+					</div>
+					<ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-dark " href="#" role="button">Read more</a></ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="col">
+			<div class="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" lc-helper="background" style="background:url(https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)  center / cover no-repeat;" alt=" photo by Bench Accounting via unsplash">
+				<div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+					<div class="lc-block pt-5 mt-5 mb-4">
+						<div editable="rich">
+							<h2 class="display-6 lh-1 fw-bold"> Count Down Page </h2>
+							<p>Quickly design and customize responsive mobile-first sites with Bootstrap.</p>
+						</div>
+					</div>
+					<ul class="lc-block d-flex list-unstyled mt-auto ms-auto"><a class="btn btn-link btn-sm text-dark " href="#" role="button">Read more</a></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+ 
+  
+
+
+<section>
+	<div class="container text-center border-top ">
+		
+		<div class="lc-block">
+			<div editable="rich">
+				<p class="text-dark mt-4">© 2023 Shreyas.Dev, All rights Reserved </p>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+ 
+ 
+  
+
 </body>
 </html>
