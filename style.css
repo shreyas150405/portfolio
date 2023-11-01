@@ -1,58 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 
-body {
-    margin: 0;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-body{
-	width:100vw;
-	height:100vh;
-	position:relative;
-	background: black;
+*, *:before, *:after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #111;
 }
 
-body:after, body:before{
-	position:fixed;
-	content:"";
-  width: 150%;
-	width:auto;
-	margin:auto;
-	padding-bottom:100%;
-	top:0;
-	bottom:0;
-	right:0;
-	left:0;
-	transform: translatey(50%);
-	border-radius:45%;
-	animation: infinite dynamic-background;
-	animation-duration:50s;
-	z-index:-1;
-}
+html, body{background: rgb(236, 240, 241);}
 
-body:after{
-		background-color: rgba(116,19,168, 0.5);
-		animation-direction: reverse;
-}
+  section.container{
+    min-width: 500px;
+    margin: 10% auto;
+    text-align: center;
+  }
+    a:hover{border-bottom: 1px solid #111;} 
+    h1{font-size: 2em; padding: 20px 0;}
+    p{
+      font-size: .75em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 20px 0;
+    }
+    h2:after {
+      content: "";
+      border-bottom: 3px solid;
+      padding-bottom: 0.75rem;
+      border-image: linear-gradient(to right, #ffd816, #ffea3c) 10;
+      display: block;
+      transform-origin: left;
+      width: 10%;
+  }
 
-body:before{
-		background-color: rgba(89,51,242, 0.8);
+    button:hover{cursor: pointer}
+    button {
+      background: transparent; outline: none;
+      position: relative;
+      border: 2px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+    }
 
-}
-
-@keyframes dynamic-background {
-  0% {
-		transform:translatey(110%) rotate(0deg) scale(2)
-	}
-  50% {
-	transform:translatey(150%) rotate(180deg) scale(2.5)
-	}
-	 100% {
-		transform:translatey(110%) rotate(0deg) scale(2)
-	}
-}
-
+    /*button:before (attr data-hover)*/
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      content: attr(data-hover);
+      position: absolute;
+      top: 1.1em; left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: .8em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+    }
+      /*button div (button text before hover)*/
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: .8em;
+        transition: all .3s ease-in-out;
+      }
