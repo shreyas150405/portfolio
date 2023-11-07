@@ -8,18 +8,21 @@
   color: #111;
 }
 
-html, body{background: rgb(236, 240, 241);}
+html
 
   section.container{
     min-width: 500px;
     margin: 10% auto;
     text-align: center;
   }
+  a{
+    color: whitesmoke !important;
+  }
     a:hover{border-bottom: 1px solid #111;} 
-    h1{font-size: 2em; padding: 20px 0;}
+    h1{font-size: 2em; 
+      padding: 20px 0;}
     p{
       font-size: .75em;
-      text-transform: uppercase;
       letter-spacing: 2px;
       padding: 20px 0;
     }
